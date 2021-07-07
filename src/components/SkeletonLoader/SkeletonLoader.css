@@ -1,0 +1,59 @@
+@-moz-keyframes wavesAnimate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@-webkit-keyframes wavesAnimate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@-o-keyframes wavesAnimate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@keyframes wavesAnimate {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.skeleton-loader {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: wavesAnimate;
+  animation-timing-function: linear;
+  background-color: #fff;
+  background: linear-gradient(to right, #f3f3f3, #f7f9f9);
+  background-size: 1000px 104px;
+  position: relative;
+  color: transparent;
+  height: 20px;
+  margin-bottom: 10px; /* Default spacing between the items */
+}
+
+/* Used for Example 2 */
+.custom-gradient {
+  background: linear-gradient(to right, #29c6c6, #29caca);
+}
